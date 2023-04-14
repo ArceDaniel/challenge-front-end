@@ -1,0 +1,63 @@
+.knowMore {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.knowMore section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 0 10%;
+}
+
+.knowMore section div{
+    width: 50%;
+}
+
+.knowMore__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+  padding: 0px 20px;
+}
+
+.knowMore__text h2 {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 43px/55px
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-222222);
+  text-align: left;
+  font: normal normal normal 43px/55px Montserrat;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  font-size: 60px;
+}
+
+.knowMore__text p {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 15px/27px Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 23px/25px Poppins;
+  letter-spacing: 0px;
+  color: #555555;
+}
+.image_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

@@ -1,27 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Colors: */
+--unnamed-color-222222: #222222;
+--unnamed-color-333333: #333333;
+
+/* Font/text values */
+--unnamed-font-family-montserrat: "Montserrat", sans-serif;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-600: 600px;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-size-14: 14px;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-24: 24px;
+--unnamed-font-size-36: 36px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-character-spacing-0-28: 0.28px;
+--unnamed-character-spacing-0-48: 0.48px;
+--unnamed-character-spacing-0-32: 0.32px;
+--unnamed-line-spacing-30: 30px;
+--unnamed-line-spacing-34: 34px;
+--unnamed-line-spacing-46: 46px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-montserrat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-36);
+line-height: var(--unnamed-line-spacing-46);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-222222);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-montserrat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-36);
+line-height: var(--unnamed-line-spacing-46);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-222222);
+}
+.unnamed-character-style-3 {
+font-family: var(--unnamed-font-family-montserrat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-34);
+letter-spacing: var(--unnamed-character-spacing-0-48);
+color: var(--unnamed-color-333333);
+}
+.unnamed-character-style-4 {
+font-family: var(--unnamed-font-family-montserrat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-16);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0-32);
+color: var(--unnamed-color-222222);
+}
+.unnamed-character-style-5 {
+font-family: var(--unnamed-font-family-montserrat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-14);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0-28);
+color: var(--unnamed-color-222222);
+
+}
+
+.rightBar{
+  background: #185F7F 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #99999933;
+border-radius: 8px;
+opacity: 1;
+position: absolute;
+width: 10px;
+height: 440px;
+top: 10px;
+right: -2px;
+}
+.second__button{
+  opacity: 1;
+  border-radius: 5px;
+  padding: 12px 30px;
+  cursor: pointer;
+
+  border: 2px solid #1b92c8;
+
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) 17px/26px Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 17px/26px Poppins;
+  letter-spacing: 0px;
+  color: #1b92c8;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: large;
+  font: bold;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+  background-color: #fff;
+  padding: 0px 5em;
+  font-family: "Montserrat", sans-serif;
 }
